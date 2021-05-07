@@ -1,0 +1,12 @@
+#category-heading {
+    background-color: rgba(0,0,0,0.5);
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#category-title {
+    color: white;
+}

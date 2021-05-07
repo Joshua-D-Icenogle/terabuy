@@ -1,0 +1,110 @@
+.navbar {
+    background-color: black;
+    color: white;
+ }
+ 
+ .navbar-brand {
+    color: white;
+    font-size: 1.7rem;
+ }
+
+  .navbar-nav {
+    padding: 1rem 0rem;
+  }
+  
+  .nav-link {
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  .brand-slash-one, .brand-slash-two {
+      font-weight: bolder;
+  }
+
+  .brand-slash-one {
+      color: rgb(8, 59, 170);
+  }
+
+  .dropdown-menu {
+    background-color: black;
+    color: white;
+  }
+  
+  .dropdown-item {
+    color: white;
+    font-size: 1.3rem;
+  }
+  
+  .little-cart {
+    display: inline-block;
+  }
+  
+  .big-cart {
+    display: none;
+    width: 50px;
+    position: relative;
+    margin-right: 1rem;
+  }
+
+  .little-cart {
+    width: 40px;
+    position: relative;
+    margin-right: 1rem;
+  }
+
+
+  .big-cart img, .little-cart img {
+    width: 100%;
+  }
+
+  
+  
+  .big-cart span, .little-cart span {
+    background-color: red;
+    position: absolute;
+    top: -1rem;
+    right: -1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+  }
+
+  .fa-stack[data-count]:after{
+    position:absolute;
+    right:0%;
+    top:0%;
+    content: attr(data-count);
+    font-size:40%;
+    padding:.6em;
+    border-radius:999px;
+    line-height:.75em;
+    color: black;
+    color:white;
+    text-align:center;
+    min-width:2em;
+    font-weight:bold;
+    background: black;
+    border-style:solid;
+  }
+  
+  
+  
+  .fa-shopping-cart:before {
+    color:  rgb(8, 59, 170);
+    background-color: black;
+  }
+
+  .navbar-toggler {
+    width: 80px;
+  }
+
+  @media(min-width: 768px) {
+    .navbar-brand {
+      font-size: 2rem;
+    }
+  }

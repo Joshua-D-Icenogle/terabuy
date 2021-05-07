@@ -1,0 +1,63 @@
+img {
+    max-width: 100%;
+}
+
+/* .carousel-item img {
+    height: 500px;
+    width: auto;
+} */
+
+.carousel {
+    box-shadow: black 0px 0px 8px;
+}
+
+.carousel-item {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-block {
+    padding: 2rem;
+    width: 80%;
+    height: auto;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin: auto;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    background-color: black;
+}
+
+#qty-input {
+    width: 50px;
+}
+
+.product-description {
+    background-color: black;
+    color: white;
+}
+
+
+
+@media (min-width: 768px) {
+    .carousel-item {
+        height: 300px;
+    }
+    .d-block {
+        width: 70%;
+    }
+}
+@media (min-width: 1024px) {
+    .carousel-item {
+        height: 400px;
+    }
+}
+@media (min-width: 1200px) {
+    .carousel-item {
+        height: 500px;
+    }
+}
